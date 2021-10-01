@@ -60,7 +60,7 @@ function draw() {
 }
 
 function spawnClouds() {
-  //escribe código aquí para aparecer nubes
+  //escribir aquí el código para aparecer las nubes
   if (frameCount % 60 === 0) {
     cloud = createSprite(600,100,40,10);
     cloud.addImage(cloudImage)
